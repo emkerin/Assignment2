@@ -3,6 +3,7 @@ body {
    margin: auto; color: #222729;
    width: 960px;
    background-color: #ffffff
+   margin: 60px 15%;
 }
 footer-div {
     width: 320px;
@@ -10,6 +11,7 @@ footer-div {
     border: 5px solid gray;
     margin: 0;
 }
+h1 {font-size: 50px}
 body {
     font-size:100%;
 }.bodytext p {
@@ -26,7 +28,7 @@ ol {
     list-style: decimal-leading-zero inside none;
 }
 
-ol li
+ol:nth-of-type(1)li
 {
     margin: 0px;
     padding: 0px;
@@ -60,3 +62,5 @@ h2 {
 h3 {
     text-align: center;
 }
+img {position: relative;
+right: 40px;}
