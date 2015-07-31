@@ -1,18 +1,62 @@
 body {
-   margin: auto;
+   font-family: 'Pontano Sans', sans-serif;
+   margin: auto; color: #222729;
    width: 960px;
-   background-color: #eef3f5
+   background-color: #ffffff
+}
+footer-div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+body {
+    font-size:100%;
+}.bodytext p {
+    font-size:0.875em;
+}.sidenote {
+    font-size:0.75em;
+}
+head {
+   font-size: 6rem;
+}
+ol {
+    margin:0px 0;
+    padding:100;
+    list-style: decimal-leading-zero inside none;
+}
+
+ol li
+{
+    margin: 0px;
+    padding: 0px;
+    text-indent: -2.2em;
+    margin-left: 35em;
+}
 }
 @font-face {
     font-family:'Pontano Sans', sans-serif; ;
     src: <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>;
 }
 h2 {
-   display: inline-block;
+   display: block;
+   text-indent: 20 em;
+   margin-left: 0 em;
 }
 #index2.html {
     margin: auto 10px;
     width: auto;
     height: 2000px;
     background-color: gray;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
 }
