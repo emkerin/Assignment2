@@ -1,7 +1,18 @@
 body {
    margin: auto;
    width: 960px;
+   background-color: #eef3f5
+}
+@font-face {
+    font-family:'Pontano Sans', sans-serif; ;
+    src: <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>;
 }
 h2 {
-   display: block;
+   display: inline-block;
+}
+#index2.html {
+    margin: auto 10px;
+    width: auto;
+    height: 2000px;
+    background-color: gray;
 }
