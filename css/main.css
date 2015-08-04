@@ -2,21 +2,25 @@
    font-family: 'Crimson Text', serif;
 }
 header {
-   margin: 100px;
+   margin: 25px; margin-bottom: none;
    font-style: bold;
    font-size: 4em;
    text-align: center;
    min-width:auto;
    padding-right: 100px;
-   padding-bottom: 100px;
    padding-top: 100px;
    padding-left: 100px;
 }
 
 img {
-   padding: 20px; padding-top: 70px;
+   padding: 20px;
    border: 0px;
    text-align: center;
+}
+
+#album {
+   padding: 5px;
+   margin: 5px;
 }
 
 #quote {
@@ -36,8 +40,41 @@ img {
    letter-spacing: 12px
 }
 
-#column {
-
+h2 {
+   font-size: 2em;
+   font-style: auto;
+   font-variant: small-caps;
+   text-align: left;
 }
 
+#by {
+   font-family: 'Lato', serif;
+   font-style: normal;
+   font-variant: normal;
+   font-size: .5em;
+}
 
+h2 ol li {
+   list-style: decimal-leading-zero;
+   font-size: 1rem;
+   color: black;
+   float: left;
+   padding-left: 10px;
+   margin-left: 25px;
+   font-variant: normal;
+   letter-spacing: 1px;
+   font-size: .5em;
+   padding: 15px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 300;
+}
+
+#Alina {
+   font-style: italic
+}
+
+h1 + div {
+   border-style: solid;
+   border-bottom-color: black;
+   border-bottom-width: 2px
+}
