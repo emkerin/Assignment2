@@ -2,7 +2,7 @@
    font-family: 'Crimson Text', serif;
 }
 header {
-   margin: 100px
+   margin: 100px;
    font-style: bold;
    font-size: 4em;
    text-align:right;
@@ -13,15 +13,13 @@ header {
    padding-left: 100px;
 }
 
-#image {
-   margin-right: 25px;
-   margin-left: 25px;
-   margin-top: 25px;
-   margin-bottom: 25px;
+img {
+   padding: 30px; padding-top: 70px;
+   border: 0px;
 }
 
 #quote {
-   font-size: .5em;
+   font-size: .35em;
    font-style: italic;
    font-variant: auto;
 }
