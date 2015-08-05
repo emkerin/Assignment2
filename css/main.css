@@ -1,6 +1,3 @@
-<body> {
-   font-family: 'Crimson Text', serif;
-}
 header {
    margin: 25px; margin-bottom: none;
    font-style: bold;
@@ -11,18 +8,12 @@ header {
    padding-top: 100px;
    padding-left: 100px;
 }
-
 img {
    padding: 20px;
+   margin-left: 100px;
    border: 0px;
    text-align: center;
 }
-
-#album {
-   padding: 5px;
-   margin: 5px;
-}
-
 #quote {
    font-size: .35em;
    font-style: italic;
@@ -30,14 +21,29 @@ img {
    padding: 20px;
    font-family: 'Lato', sans-serif;
    font-weight: 100;
-   letter-spacing: 1px
+   letter-spacing: 1px;
+   clear: right;
 }
-
+#album {
+   padding: 10px;
+   margin: 5px;
+}
+#Alina {
+   font-style: italic
+}
 #hcontent {
+   font-family: 'Crimson Text', serif;
    font-variant: small-caps;
    text-align: center;
    padding-bottom: 0px;
    letter-spacing: 12px
+}
+
+#reviews {
+   font-family: 'Lato', sans-serif;
+   padding-top: 100px;
+   border: 1px solid blue;
+   display: block;
 }
 
 h2 {
@@ -54,27 +60,107 @@ h2 {
    font-size: .5em;
 }
 
-h2 ol li {
+ol li {
    list-style: decimal-leading-zero;
-   font-size: 1rem;
+   font-size: 2rem;
    color: black;
    float: left;
-   padding-left: 10px;
-   margin-left: 25px;
+   padding-left: 20px;
+   margin-left: 45px;
    font-variant: normal;
    letter-spacing: 1px;
-   font-size: .5em;
+   font-size: 1em;
    padding: 15px;
    font-family: 'Lato', sans-serif;
    font-weight: 300;
+   min-width: 300px;
+   clear: right;
 }
+#toptag {
+   padding-top: 55px;
 
-#Alina {
-   font-style: italic
-}
-
-h1 + div {
+}h1 + div {
    border-style: solid;
    border-bottom-color: black;
    border-bottom-width: 2px
+}
+
+div img {
+   display: block;
+   float: left;
+   clear: right;
+   width: auto;
+}
+}
+
+div ol {
+   display: block;
+   font-size: 2em;
+   float: right;
+}
+
+#nestedlist {
+   float: inherit;
+   clear: both;
+   text-align: left;
+   padding-left: 10%;
+}
+
+footer {
+   font-style: 'Lato', sans-serif;
+}
+h2 {
+   clear: both;
+   font-family: 'Lato', sans-serif;
+   font-size: 1em;
+   font-variant: none;
+   font-weight: 300;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+#heading {
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-size: 2em;
+   font-variant: none;
+   font-weight: 300;
+   clear: left;
+   }
+
+#attribution: {
+   text-align: left;
+   font-style: bold;
+}
+
+div div {
+   text-align: justify;
+   font-family: 'Lato', sans-serif;
+   letter-spacing: .5px;
+   font-weight: 300;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+h2 p {
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+#review1 #review2 {
+   padding-top: 10px;
+}
+
+footer {
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   letter-spacing: .5px;
+   font-weight: 300;
+}
+.attribution {
+   text-align: left;
+   font-style: bold;
+}
+
+#postolp {
+   float: left;
+   clear: left;
+   padding-top: 10%
 }
