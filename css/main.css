@@ -1,85 +1,65 @@
+
 header {
-   margin: 25px; margin-bottom: none;
-   font-style: bold;
-   font-size: 4em;
    text-align: center;
    min-width:auto;
-   padding-right: 100px;
-   padding-top: 100px;
-   padding-left: 100px;
+   padding-right: 15%;
+   padding-top: 10%;
+   padding-left: 15%;
 }
-img {
-   padding: 20px;
-   margin-left: 100px;
-   border: 0px;
-   text-align: center;
+   header img {
+      float: center;
 }
-#quote {
-   font-size: .35em;
-   font-style: italic;
-   font-variant: auto;
-   padding: 20px;
-   font-family: 'Lato', sans-serif;
-   font-weight: 100;
-   letter-spacing: 1px;
-   clear: right;
-}
-#album {
-   padding: 10px;
-   margin: 5px;
-}
-#Alina {
-   font-style: italic
-}
-#hcontent {
+   #hcontent {
    font-family: 'Crimson Text', serif;
    font-variant: small-caps;
    text-align: center;
+   font-size: 4em;
    padding-bottom: 0px;
    letter-spacing: 12px
 }
+   #quote {
+      font-size: 1.5em;
+      font-style: italic;
+      font-variant: auto;
+      padding: 20px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 100;
+      letter-spacing: 1px;
+      clear: right;
+      }
 
-#reviews {
-   font-family: 'Lato', sans-serif;
-   padding-top: 100px;
-   border: 1px solid blue;
-   display: block;
+
+#album {
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 5%;
+float: center;
 }
 
-h2 {
-   font-size: 2em;
-   font-style: auto;
-   font-variant: small-caps;
-   text-align: left;
-}
-
-#by {
-   font-family: 'Lato', serif;
-   font-style: normal;
-   font-variant: normal;
-   font-size: .5em;
+div img {
+   padding-right: 5%
 }
 
 ol li {
    list-style: decimal-leading-zero;
-   font-size: 2rem;
-   color: black;
-   float: left;
-   padding-left: 20px;
-   margin-left: 45px;
-   font-variant: normal;
+   font-size: .5em;
    letter-spacing: 1px;
-   font-size: 1em;
-   padding: 15px;
    font-family: 'Lato', sans-serif;
    font-weight: 300;
    min-width: 300px;
+}
+
+#list {
+   float: right;
+   font-size: 2em;
+   text-align: left;
+   line-height: 20px;
+   padding-top: 55px;
+   padding-left: 100px;
    clear: right;
 }
-#toptag {
-   padding-top: 55px;
 
-}h1 + div {
+h1 + div {
    border-style: solid;
    border-bottom-color: black;
    border-bottom-width: 2px
@@ -91,19 +71,17 @@ div img {
    clear: right;
    width: auto;
 }
-}
-
-div ol {
-   display: block;
-   font-size: 2em;
-   float: right;
-}
 
 #nestedlist {
-   float: inherit;
+   display: block;
+   font-size: 2em;
+   float: left;
    clear: both;
    text-align: left;
-   padding-left: 10%;
+   padding-left: 20%;
+   font-family: 'Lato', sans-serif;
+   letter-spacing: .5px;
+   font-weight: 300;
 }
 
 footer {
@@ -125,42 +103,63 @@ h2 {
    font-variant: none;
    font-weight: 300;
    clear: left;
+   padding-top: 5%;
    }
 
-#attribution: {
-   text-align: left;
-   font-style: bold;
+p {
+   padding-top: 1%;
+   padding-bottom: 1%;
 }
-
-div div {
+#review1 {
+   padding-top: 10px;
+   margin-right: 10%;
+   margin-left: 10%;
    text-align: justify;
    font-family: 'Lato', sans-serif;
    letter-spacing: .5px;
    font-weight: 300;
-   margin-left: 10%;
-   margin-right: 10%;
-}
-h2 p {
-   padding-top: 2%;
-   padding-bottom: 2%;
-}
-#review1 #review2 {
-   padding-top: 10px;
-}
 
-footer {
-   text-align: center;
+}
+#review2 {
+   padding-top: 8%;
+   margin-right: 10%;
+   margin-left: 10%;
+   text-align: justify;
    font-family: 'Lato', sans-serif;
    letter-spacing: .5px;
    font-weight: 300;
 }
+
 .attribution {
-   text-align: left;
-   font-style: bold;
+   float: right;
+   font-weight: 400;
+   clear: left;
+   padding-bottom: 2%
 }
 
 #postolp {
    float: left;
-   clear: left;
-   padding-top: 10%
+   clear: both;
+   padding-top: 2%
+}
+
+#postolp2 {
+   float: left;
+   clear: both;
+   padding-top: 2%
+}
+
+#postolp3 {
+   float: left;
+   clear: both;
+   padding-top: 2%
+}
+
+footer {
+   padding: 5%;
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   letter-spacing: .5px;
+   font-weight: 300;
+   clear: both;
 }
